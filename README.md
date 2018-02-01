@@ -1,5 +1,4 @@
-![NewPaltz Logo](home/pi/Documents/newpaltzlogo.jpg)
-Format: ![Alt Text](https://www.newpaltz.edu/media/identity/logos/newpaltzlogo.jpg)
+![Alt Text](https://www.newpaltz.edu/media/identity/logos/newpaltzlogo.jpg)
 SPRING 2018 Embedded Linux class
 
 this is my (N02931169) class repository. All work here is mine, except otherwise noted.
