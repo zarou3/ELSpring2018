@@ -9,7 +9,7 @@ Name: Ryan Zarou
 
 Major: Computer Science
 
-ID: [link N02931169](https://github.com/zarou3)
+ID: [N02931169](https://github.com/zarou3)
 
 Year: Senior
 
