@@ -1,3 +1,2 @@
 # ELSpring2018
-This is a template for Spring 2018 Embedded Linux class
-
+this is my (N02931169) class repository. All work here is mine, except otherwise noted.
