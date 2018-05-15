@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+
+<title>My CHART</title>
+
+</head>
+
+<body>
+
+	<div class="container">
+	<canvas id="myChart"></canvas>
+
+<script>
+
+	var list = JSON.parse("{{ newList }}");
+
+
+	let mychart = document.getElementById('myChart').getContext('2d');
+	let newChart = new Chart(myChart, {
+	  type: 'line', 
+          data:{
+	      labels:['3/5/18 19:19:17 EST'],
+              datasets:[{
+		label:'Temperature in Degrees Fahrenheit',
+		data:[24],
+	
+	backgroundColor:[
+	   'rgba(255, 99, 132, 0.2)'
+	   ],
+	   borderWidth:1,
+	   borderColor:'#777',
+	   hoverBorderWidth:3,
+           hoverBorderColor:'#000'
+          }]
+	   },
+          options:{}
+	});
+
+     for(var count = 0; count <= list.length; count++) {
+	addData(newChart, count, list[count]);
+    }
+
+  function addData(chart, label, data) {
+      chart.data.labels.push(label);
+      chart.data.datasets.forEach((dataset) => {
+          dataset.data.push(data);
+      });
+    chart.update();
+}
+
+    
+
+</script>
+
+</body>
+</html>

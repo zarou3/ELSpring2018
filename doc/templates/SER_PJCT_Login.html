@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+<html>
+
+
+
+
+
+	<head>
+	
+			<br />
+			
+			<input 
+			
+			type="button" 
+			style="height:75px;width:150px" 
+			onclick="location.href='file:/home/pi/Documents/Python/WebAssignment/templates/SER_PJCT_Homepage.html';" 
+			
+			value="HOME  :)" 
+			
+			style="font-size : 200px"
+			
+			/>
+
+
+		<br /><br /><br /><br />
+		<br /><br /><br /><br />
+		<br /><br /><br /><br />
+		<!-- Attempt at Centering Display-->
+
+	
+		<title>JavaScript Simple Login System</title>
+		<center>
+		<h1>= SER TEMPURATURE SENSOR BOX =</h1>
+		</center>
+
+
+		<!-- <link rel="shortcut icon" href="favicon.ico"> -->
+	</head>
+
+
+
+
+	<body style="background-color:powderblue;">
+
+
+		<center>
+            	<label>Username</label>
+            	<input type="text" id="Username" placeholder="TYPE YOUR Username"><br />
+		</center>
+
+		<center>
+            	<label>Password</label>
+				<input type="password" id="Password" placeholder="TYPE YOUR Password"><br />
+		</center>
+
+
+		
+		<!--
+		<center>
+		
+				<button id="Login" type="button" onclick="EmptyTextbox()">Login</button>
+				<! [ CheckLogin() ]  =  [ CURRENT BUTTON FUNCTION ] >
+
+		</center>
+		-->
+		
+		
+		<!-- <button id="myBtn" onclick="alert('Hello World!')">Button</button> -->
+		
+		
+		
+		
+			<br />
+			
+			<center>
+			
+			<input 
+			
+			type="button" 
+			style="height:75px;width:150px" 
+			onclick="location.href='file:/home/pi/Documents/Python/WebAssignment/templates/graph.html';" 
+			
+			value="TEMPURATURE LOG" 
+			
+			style="font-size : 200px"
+			
+			/>
+			
+			</center>
+
+		
+		
+		
+		
+		
+		
+		
+		<button id="myBtn" onclick="javascript:alert('Hello World!')">Button</button>
+
+		<script>
+		var input = document.getElementById("myInput");
+		
+		input.addEventListener("keyup", function(event) 
+		{
+			event.preventDefault();
+			if (event.keyCode === 13) { document.getElementById("myBtn").click(); }
+		});
+		</script>
+				
+		
+		
+		<!--
+		
+		
+		
+		
+		<script>
+		var input = document.getElementById("Username");
+		
+		input.addEventListener("keyup", function(event))
+		{
+    		event.preventDefault();
+    		if (event.keyCode === 13) { document.getElementById("Login").click(); }
+		};
+		</script>
+		
+		
+		<script>
+		var input = document.getElementById("Password");
+		
+		input.addEventListener("keyup", function(event))
+		{
+    		event.preventDefault();
+    		if (event.keyCode === 13) { document.getElementById("Login").click(); }
+		};
+		</script>
+		
+		
+		
+		
+		<script>
+
+		
+		var objPeople = 
+		[
+
+
+			{ // Object @ 0 index
+				user: "Sam",
+				pass: "123"
+			},
+			{ // Object @ 1 index
+				user: "Elliott",
+				pass: "456"
+			},
+			{ // Object @ 2 index
+				user: "Ryan",
+				pass: "789"
+			}
+
+
+		]
+				
+		
+		</script>
+	
+		
+		
+				
+		<script>
+		
+		
+		function CheckLogin()
+		{
+					
+					// * Temp Variables to Compare  [ Input ]  to  [ Database of Users ]
+					var check_username = document.getElementById("Username").value;
+					var check_password = document.getElementById("Password").value;
+					
+					
+					
+			for(var i = 0; i < objPeople.length; i++) 
+			{
+			
+				// check is user input matches check_username and password of a current index of the objPeople array
+
+				if
+				(check_username == objPeople[i].user && check_password == objPeople[i].pass)
+					{
+							console.log(check_username + " is logged in!!!")
+							// stop the function if this is found to be true
+							return
+					}
+
+
+			}
+
+			console.log("Incorrect Username OR Password");
+
+		
+		}
+
+		
+		</script>
+		
+		
+		
+		
+		-->
+		
+		
+
+		
+		<script>
+				function EmptyTextbox() { alert( "ERROR: Nothing Was Entered!" ); }
+		</script>
+
+
+
+
+	</body>
+
+
+
+
+</html>
+

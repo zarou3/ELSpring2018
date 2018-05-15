@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+
+<html>
+
+
+
+
+  <head>
+  
+  
+    <title>Climate Data Displayer</title>
+    <style>
+	
+    body{
+      font-family: "PT Sans Narrow";
+      font-size: 24px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 500;
+      line-height: 26.4px;
+      }
+	  
+    </style>
+	
+	
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css')}}">
+  
+	</head>
+
+	
+	
+	
+<body style="background-color:powderblue;">
+  
+  
+    <header>
+      <div class = "navbar navbar-inverse">
+        <div class = "navbar-inner">
+		
+			<br />
+			
+			<input 
+			
+			type="button" 
+			style="height:75px;width:150px" 
+			onclick="location.href='file:/home/pi/Documents/Python/WebAssignment/templates/SER_PJCT_Homepage.html';" 
+			
+			value="HOME  :)" 
+			
+			style="font-size : 200px"
+			
+			/>
+			
+			
+			<input 
+			
+			type="button" 
+			style="height:75px;width:150px" 
+			onclick="location.href='/home/pi/Documents/Python/WebAssignment/templates/SER_PJCT_Login.html';" 
+			
+			value="LOGIN  :)" 
+			
+			style="font-size : 200px; width: 100%; height: 200px;"
+			
+			/>
+			
+			<form action="/login" method="GET">
+			<form>
+			<input 
+			
+			type="button" 
+			style="height:75px;width:150px" 
+			onclick="location.href='file:/home/pi/Documents/Python/WebAssignment/templates/SER_PJCT_Login.html';" 
+			
+			value="SIGN-UP  :)" 
+			
+			style="font-size : 200px; width: 100%; height: 200px;"
+			
+			/>
+			</form>
+			
+			
+					
+			<center>
+						
+			
+			<br />
+			<a class = "brand" href = "/"> = S.E.R. = <br /> = TEMPERATURE SENSOR BOX = </a>
+			<br /><br />
+		  
+			<img id="myImg" src="SER_PJCT_Homepage_IMAGE.PNG"  width="700" height="500">
+		
+		
+			</center>
+			
+			
+          <ul class = "nav">
+
+            <li><a href = "/log">Login</a></li>
+
+            <li><a href = "/createuser">Create New User</a></li>
+
+            <li><a href = "/display">Display Data</a></li>
+
+            <li><a href = "/logout">Logout</a></li>
+            
+          </ul>
+        </div>
+		
+
+		
+		
+      </div>
+    </header>
+
+	
+  </body>
+  
+  
+  
+  
+</html>
