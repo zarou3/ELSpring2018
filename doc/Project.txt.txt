@@ -1,0 +1,65 @@
+
+TEAM MEMBERS
+Ryan Zarou 
+Elliott Ieremia
+Samuel Boahen 
+
+PROJECT DESCRIPTION
+Project 1
+Scalable and robust infrastructure to create a building's heat and humidity profile Mechanics of this project is basically simple, and we have already done it– use sensors to collect temp/humidity data, save it to a local database on the Pi. What you need to do is create a robust, attention-free, easily deployable system that integrates data from many sources and allows a nontechnical user to visualize what is going on in a building at any specified time. You must design a scheme to save data from different Pi’s to a remote server that authorized persons can log into. Here is a use case scenario for the project: 
+
+1. You give the people in a building a box and ask them to plug the box in to an outlet. You are going to assume that there is a WiFi network connection that the box can access. You could get the SSID/password of the network from the user in advance and set up your box accordingly. 
+
+2. The box will start collecting temperature and humidity data at regular intervals, store locally, and also upload to a remote site. 
+
+3. A user can log into the remote admin site, and should be able to access the temperature/humidity profile of each deployed box. 
+
+4. The user interface of the admin site must be such that it can show the measured parameters in a specified time frame that the user can pick. 
+
+5. It must be possible to see the individual data profiles of each box (in a graph), as well as a cumulative view (as stacked curves, for example)
+
+
+PROGRESS MADE SO FAR
+Auto temp and humidity data working
+Storing data locally
+Uploading data profile to remote site
+
+
+WORK THAT NEEDS TO BE DONE IN THE NEXT 3 WEEKS
+Create remote site for uploading
+      Site needs
+    Login system
+    Ability to check data from each box
+    UI that can display data from a specified time frame
+    Show each box's data in a graph alone and as cumulative view
+
+
+TEAM MEMBER ROLES, RESPONSIBILITIES, AND CONTRIBUTIONS
+
+4. Contribution of each partner. List what each person did, and what each person’s future role for the project.
+
+
+Ryan
+Major:                     		Computer Science
+Skills/Specialties:                 	Python, Java
+Resources/Tools/Supplies Available:     Raspberry Pi
+Willing to Work On:                 	Creating database / collecting data
+
+
+Elliott
+Major:                     		Computer Science
+Skills/Specialties :                	Java, Jury-rigging code with duct-tape and 
+					hope to provide a base for someone who knows what they’re doing
+Resources/Tools/Supplies Available:     Raspberry Pi
+Willing to Work On:                 	Anything, Assisting in all areas when possible
+
+
+Sam
+Major:                     		Computer Engineering
+Skills/Specialties:                 	Digital Logic, Programming (C/C++ ; Java ; Verilog),
+                        		Some 3D Printing Experience (Rhino), Project
+                        		Management, Powerpoint/Interactive  
+              			        Animations, Design/Aesthetics, Public 
+                		        Speaking/Presenting
+Resources/Tools/Supplies Available:    	Engineering Toolbox, Raspberry Pi
+Willing to Work On:                	Presentations/Slides, HTML
