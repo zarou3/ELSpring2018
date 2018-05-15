@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+   <body>
+   
+      <table border = 1>
+         <thead>
+            <td>Time</td>
+            <td>Degrees Celcius</td>
+            <td>Degrees Fahrenheit</td>
+         </thead>
+         
+         {% for row in rows %}
+            <tr>
+               <td>{{row["date_time"]}}</td>
+               <td>{{row["tempC"]}}</td>
+               <td> {{ row["tempF"]}}</td>	
+            </tr>
+         {% endfor %}
+      </table>
+      
+      <a href = "/">Go back to home page</a>
+      
+   </body>
+</html>
